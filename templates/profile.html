@@ -1,0 +1,17 @@
+<html>
+  <body>
+    <div>
+        <p>Username: {{ claims.preferred_username }}</p>
+        <p>Name: {{ claims.given_name }}</p>
+        <p>UID: {{ claims.sub }}</p>
+        <p>Secured Page</p>
+    </div>
+    <div>
+      <h2>fake Api infos</h2>
+      <p>Name: {{ data.name }}</p>
+      <p>Website: {{ data.website }}</p>
+      <p>Phone: {{ data.phone }}</p>
+    </div>
+
+  </body>
+</html>
